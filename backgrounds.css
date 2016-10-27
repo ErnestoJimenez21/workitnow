@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	background-attachment:scroll;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.bg-empresarias-1{
+	background-image:url(ejecutivo.jpg);
+}
+.bg-empresarias-2{
+	background-image:url(../img/empresaria.jpg);
+}
+.bg-equipo-1{
+	background-image:url(../img/EQUIPO-HUMANO.jpg);
+}
+.bg-equipo-2{
+	background-image:url(../img/lp_studium_auszeichnungen.jpg);
+}
+.bg-usuarios-1{
+	background-image:url(../img/placeholder_tech_3.jpg);
+}
+.bg-usuarios-2{
+	background-image:url(../img/escribiendo.jpg);
+}
+.bg-proyectos-1{
+	background-image:url(../img/img-4.jpg);
+}
