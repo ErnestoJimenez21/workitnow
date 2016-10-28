@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="formulario.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    </head>
+      
+    <header>
+        <title>Registro</title>
+       
+    </header>
+
+    
+    <body>
+        <div id="inicio" align="center"><h1>Registro de Cuenta</h1><br><br></div>
+	<div id="formulario" align="center">
+        <form name="registroForm" action="action_page.php" method="POST"></form>
+        <div id="select">
+        
+        <input name="nombre" type="text" class="textos" placeholder="Nombre"/><br><br>
+        <input name="apellido" type="text" class="textos" placeholder="Apellidos"/><br><br>
+        <input name="nombreCompañia" type="text" class="textos" placeholder="Compa&ntilde;ia"/><br><br>
+        <input name="sitioWeb" type="text" class="textos" placeholder="Sitio Web"/><br><br>
+        <input type="text" class="textos" placeholder="E-mail"/><br><br>
+        <input name="genero" type="radio" class="radio" value="hombre"checked/> Hombre
+        <input name="genero" type="radio" class="radio" value="mujer"/>Mujer<br><br>
+
+
+        
+        <select id="formulario" name="opciones" >
+             <option value="0">Selecciona un Estado</option>
+            <option value="1">Aguascalientes</option>
+            <option value="2">Baja California</option>
+            <option value="3">Baja California Sur</option>
+            <option value="4">Campeche</option>
+            <option value="5">Chiapas</option>
+            <option value="6">Chihuahua</option>
+            <option value="7">Coahuila</option>
+            <option value="8">Colima</option>
+            <option value="9">Distrito Federal</option>
+        </select> 
+        <div class="botonReg"><a href="./" class="botonReg">Reg&iacute;strate</a></div>
+		
+         </div>
+
+  	</div>
+
+    </body>
+</html>

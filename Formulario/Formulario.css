@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+body {
+    /*background:#232323;*/
+    
+    background-image: url(../Formulario/image.jpg);
+    margin:0px;
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-family: "Segoe UI";
+    font-size: 15px;
+	
+}
+
+div#inicio{
+        
+        height: 100%;
+        width: 100%;
+	font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+h1 {
+    font-size: 30px;
+}
+
+
+
+.botonReg a{
+    
+   display:block;
+    width:120px;
+    border-radius: 5px;
+    border:1px solid #676565;
+    box-shadow: 0px 0px 20px #FFFFFF;
+    margin-left:130px;
+    margin-top:70px;
+    margin-bottom:70px; 
+    text-align:center;
+    font-size:18px;
+    text-shadow:none;
+    padding:5px;
+    text-decoration:none;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+.botonReg a:hover{
+    background-color:#FFFFFF;
+    color:#424242;  
+}
+
+
+.textos {
+    
+	height:50%;
+	border-color:#00C597;
+	width:70%;
+	border-radius:10px;
+	font-size:22px;
+	margin-top:40px;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	
+	}
+	
+.radio {
+	border-color:#00C597;
+	border-width:thick;
+	
+	}
+
+select#formulario{
+    border-radius: 25px;
+    height: 90%;
+    width: 70%;
+	font-size:20px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+div#select{
+ 
+    background-position: center;
+ 
+    background-repeat: no-repeat;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color:black;
+    border-radius: 40px;
+    border-collapse: 100px;
+    height: 80%;
+    width: 25%;
+      
+	text-align:center;
+background-image: linear-gradient(to bottom, #044490, #044476);
+opacity: 1.0;
+        filter:  alpha(opacity=50);
+
+
+
